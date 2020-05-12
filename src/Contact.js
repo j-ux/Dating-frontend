@@ -4,6 +4,7 @@ import React from 'react'
 const Contact=()=>{
 
     return (
+        <div container  className="col-lg-12">
         <div className="row">
             <div className="col-lg-12 text-center">
                 <label >Address:</label>
@@ -17,6 +18,7 @@ const Contact=()=>{
                 <label >Email:</label>
                 <h1>companions4u@gmail.com</h1>
             </div>
+        </div>
         </div>
     )
 }

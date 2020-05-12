@@ -66,7 +66,7 @@ const Show=(props)=>{
                     <div className="col-lg-4" >
 
                         <div className="card">
-                            <img className="male-img"  src="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" />
+                            <img className="male-img"  src="" />
                             <h3>{maleState.male.name}</h3>
                             <p className="male"><strong>{maleState.male.email}</strong></p>
                             <p>{maleState.male.phone}</p>

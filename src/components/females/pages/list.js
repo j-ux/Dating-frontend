@@ -48,7 +48,7 @@ const List=()=>{
 
             <div>
 
-                <img src="https://media.giphy.com/media/11FuEnXyGsXFba/giphy.gif" height="200"/>
+                <img src=""/>
 
                 <h3>Loading data, please wait</h3>
 

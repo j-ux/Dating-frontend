@@ -41,9 +41,15 @@ function App() {
 
           <Switch>
 
-              <Route path="/login" exact> <Login/> </Route>
+              <Route path="/login" exact>
+                  <Login/>
+              </Route>
+              <Route path="/Contact" exact>
+                  <Contact/>
+              </Route>
 
-            <Route path="/" exact >
+
+              <Route path="/" exact >
                 <Home/>
             </Route>
 

@@ -24,7 +24,7 @@ const MaleCard = props =>{
                     <div className="col-lg-3" key={male._id}>
 
                         <div className="card">
-                            <img className="male-img" alt={male.name} src="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" />
+                            <img className="male-img" alt={male.name} src="" />
                             <h3>{male.name}</h3>
                             <p className="male"><strong>{male.email}</strong></p>
                             <p>{male.phone}</p>

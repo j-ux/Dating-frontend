@@ -16,7 +16,7 @@ const List=()=>{
         const fetchMales= async ()=>{
 
             try{
-                const response = await axios.get('http://localhost:8080/api/males')
+                const response = await axios.get('http://localhost:8000/api/males')
 
                 console.log("response is "+ response)
                 editMales(response.data)
@@ -48,7 +48,7 @@ const List=()=>{
 
             <div>
 
-                <img src="https://media.giphy.com/media/11FuEnXyGsXFba/giphy.gif" height="200"/>
+                <img src=""/>
 
                 <h3>Loading data, please wait</h3>
 
@@ -65,7 +65,7 @@ const List=()=>{
     return (
         <div className="row">
             <div className="col-lg-12 text-center">
-                <h1> Reegistered men</h1>
+                <h1> Registered men</h1>
 
                 <br/><br/>
 
